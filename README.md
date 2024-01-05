@@ -8,4 +8,4 @@ Almdrasa's diploma covers skills needed to master front-end development, includi
 - <p><b>HTML,CSS,JavaScript:</b> Proficiency in crafting web applications using HTML, CSS, and JavaScript</p>
 - <p><b>VersionControl:</b> Mastery of Version Control Systems, Testing, and Debugging</p>
 - <p><b>Accessibility:</b> In-depth knowledge of Accessibility and Performance Optimization</p>
-- <p><b>Portofilo:</b> Creation of a robust portfolio showcasing honed skills acquired during the diploma</p># Almdrasa-Frontend-Diploma
+- <p><b>Portofilo:</b> Creation of a robust portfolio showcasing honed skills acquired during the diploma</p>
