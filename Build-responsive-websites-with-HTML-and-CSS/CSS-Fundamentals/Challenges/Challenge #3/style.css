@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.sale {
+    position: absolute;
+    top: -10px;
+    left: -30px;
+    color: white;
+    background-color: red;
+    transform: rotate(-30deg);
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 2px 4px;
+}
+
+.course {
+    border-style: solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+
+.course-title {
+    font-size: 22px;
+    color: white;
+    background-color: #0039fe;
+    text-align: center;
+    padding: 4px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.course-image {
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.course-price {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.roadmap {
+    margin: 20px 0 5px;
+}
+
+.roadmap > ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.roadmap > ul > li {
+    padding: 5px 10px;
+    border: 2px solid;
+    border-radius: 3px;
+    margin-right: 3px;
+}
+
+.roadmap > ul > li:nth-child(1) {
+    border-color: #ffa500;
+}
+
+.roadmap > ul > li:nth-child(2) {
+    border-color: #0000ff;
+}
+
+.roadmap > ul > li:nth-child(3) {
+    border-color: #f6f62b;
+}
+
+.course-description {
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.course-link:link {
+    color: black;
+}
+
+.course-link:visited {
+    color: black;
+}
+
+.course-link:hover {
+    text-decoration: none;
+}
+
+.cousre-link:active {
+    text-decoration: none;
+}
+
+.course-list-title {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 20px 0 5px;
+}
+
+.course-list {
+    list-style-type: square;
+    padding: 0 0 20px 20px;
+}
+
+.course-button {
+    background-color: #0043ff;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 6px 20px;
+    transition-duration: 1s;
+}
+
+.course-button:hover {
+    background-color: #4777ff;
+}

@@ -1,0 +1,73 @@
+.course {
+    border-style: solid;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+.course-title {
+    font-size: 22px;
+    color: white;
+    background-color: #0039fe;
+    text-align: center;
+    padding: 4px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.course-image {
+    border-radius: 5px;
+}
+
+.course-price {
+    font-size: 24px;
+}
+
+.course-description {
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+}
+
+.course-link:link {
+    color: black;
+}
+
+.course-link:visited {
+    color: black;
+}
+
+.course-link:hover {
+    text-decoration: none;
+}
+
+.cousre-link:active {
+    text-decoration: none;
+}
+
+.course-list-title {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.course-list {
+    list-style-type: square;
+}
+
+.course-button {
+    background-color: #0043ff;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 6px 20px;
+    transition-duration: 1s;
+}
+
+.course-button:hover {
+    background-color: #4777ff;
+}

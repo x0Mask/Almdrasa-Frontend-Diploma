@@ -1,0 +1,36 @@
+.projects__main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 7.4rem;
+    row-gap: 7.5rem;
+}
+
+.projects__img {
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+}
+
+.projects__data {
+    align-self: center;
+}
+
+.projects__description {
+    line-height: 1.5;
+}
+
+.projects__links {
+    color: var(--color-darker-blue);
+    font-family: var(--font-family-poppins);
+    font-weight: var(--font-weight-medium);
+    margin-block-start: 2.3rem;
+}
+
+.projects__links::after {
+    content: "";
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.4rem;
+    background-image: url(./img/external-icon.png);
+    background-size: contain;
+    margin-inline-start: 0.6rem;
+}

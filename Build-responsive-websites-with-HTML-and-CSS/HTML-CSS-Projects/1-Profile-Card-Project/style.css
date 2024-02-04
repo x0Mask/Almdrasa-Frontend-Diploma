@@ -1,0 +1,168 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    display: inline-block;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Courier New", Courier, monospace;
+}
+/* End CSS Reset */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5f7;
+    opacity: 0.7;
+    background-size: 20px 20px;
+    background-image: repeating-linear-gradient(
+        0deg,
+        #444cf7,
+        #444cf7 1px,
+        #e5e5f7 1px,
+        #e5e5f7
+    );
+    min-height: 100vh;
+}
+
+.lights-control {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    top: 2rem;
+}
+
+.lights-label {
+    height: 2.2rem;
+    width: 4.2rem;
+    background-color: #000;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding-block: 0.3rem;
+    padding-inline: 0.4rem;
+}
+
+.lights-label::after {
+    content: "";
+    display: block;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+.lights-input {
+    display: none;
+}
+
+.lights-input:checked + .lights-label {
+    background-color: #fff;
+}
+
+.lights-input:checked + .lights-label::after {
+    transform: translateX(2.1rem);
+    background-color: green;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    min-width: 35rem;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.top {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: repeating-radial-gradient(
+            circle at 0 0,
+            transparent 0,
+            #e5e5f7 10px
+        ),
+        repeating-linear-gradient(#444cf755, #444cf7);
+    height: 10rem;
+}
+
+.middle {
+    margin-inline: auto;
+    text-align: center;
+    margin-block-start: -6rem;
+    z-index: 1;
+}
+
+.pic {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    border: 0.4rem solid #fff;
+}
+
+.title {
+    font-size: 2.2rem;
+}
+
+.profession {
+    font-size: 1.4rem;
+}
+
+.bottom {
+    display: flex;
+    margin-block-start: 3rem;
+    border-block-start: 0.1rem solid #c4c4c4;
+}
+
+.column {
+    flex: 1;
+    padding-block: 1.8rem;
+    padding-inline: 1.5rem;
+    text-align: center;
+}
+
+.column:nth-child(2) {
+    border-inline: 0.1rem solid #c4c4c4;
+}
+
+.icon {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.username {
+    font-size: 1.2rem;
+}

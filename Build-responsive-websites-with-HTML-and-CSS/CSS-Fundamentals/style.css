@@ -1,0 +1,229 @@
+/* universal selector */
+* {
+    opacity: 1;
+    padding: 0px;
+    margin: 0px; /* Global Resitting */
+}
+
+body {
+    position: relative;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.main-header {
+    background: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    border-radius: 3px;
+    /* height: 80px; */
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    color: #3d4e60;
+}
+
+h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 30px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+li:last-child {
+    margin-bottom: 0px;
+}
+
+.separator {
+    margin-right: 30px;
+}
+
+#author {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.related {
+    list-style: none;
+}
+
+.related-author {
+    font-size: 18;
+    font-weight: bold;
+}
+
+aside {
+    background: #f7f7f7;
+    padding: 50px 0px;
+    width: 500px;
+    border-radius: 3px;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/* li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    font-style: italic;
+}
+
+li:nth-child(odd) {
+    color: blue; 
+}
+
+article p:last-of-type {
+    color: blue;
+} */
+
+/* Styling Linkes */
+a:link {
+    color: #109ba0;
+    text-decoration: none;
+    margin: 10px 30px 0 0;
+    display: inline-block;
+}
+
+a:visited {
+    color: #109ba0;
+}
+
+a:hover {
+    color: #13bec4;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:active {
+    background-color: black;
+    font-style: italic;
+}
+
+/* Resolving Conflicts */
+#copyright {
+    color: red;
+}
+
+.copyright {
+    color: aquamarine;
+}
+
+.test {
+    color: brown;
+}
+
+footer p {
+    color: chartreuse !important;
+}
+
+.post-header {
+    margin-bottom: 40px;
+}
+
+ul,
+ol {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+article {
+    margin-bottom: 60px;
+}
+
+.post-img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.reactions {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+/* Pseudo Elements */
+
+/* h2::first-letter {
+    font-size: 80px;
+}
+
+p::first-line {
+    color: red; 
+} */
+
+h2::after {
+    content: "ترند 🔥";
+    background-color: #109ba0;
+    font-weight: normal;
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 14px 0 0 30px;
+    border-radius: 3px;
+}
+
+/* RTL Styles */
+[dir="rtl"] a:link {
+    margin-left: 30;
+    margin-right: 0;
+}
+
+[dir="rtl"] h2::after {
+    margin: 14px 30px 0 0;
+}
+
+[dir="rtl"] .reactions {
+    right: auto;
+    left: 50px;
+}
+
+[dir="rtl"] ul,
+ol {
+    margin-right: 50px;
+}

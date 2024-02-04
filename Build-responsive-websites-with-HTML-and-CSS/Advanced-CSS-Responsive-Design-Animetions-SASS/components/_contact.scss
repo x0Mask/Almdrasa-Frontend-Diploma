@@ -1,0 +1,58 @@
+.contact {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20rem;
+    align-items: center;
+}
+
+.contact__description {
+    font-size: var(--font-size-20);
+    line-height: 1.9;
+}
+
+.contact__email {
+    font-weight: var(--font-weight-bold);
+    margin-block: 2.5rem;
+}
+
+.contact__social {
+    transition: var(--transition-timing);
+    margin-inline-end: 1rem;
+}
+
+.contact__social:hover {
+    transform: scale(1.2);
+}
+
+.contact__inputs {
+    display: flex;
+    gap: 3rem;
+}
+
+.contact__input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-block-end: 0.1rem solid var(--color-input-border);
+    flex: 1;
+}
+
+.contact__textarea {
+    width: 100%;
+    margin-block-start: 4rem;
+}
+
+.contact__button {
+    background-color: var(--color-link-bg);
+    color: var(--color-white);
+    padding-block: 1.7rem;
+    padding-inline: 1.8rem;
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-24);
+    margin-block-start: 3.4rem;
+}
+
+form:invalid::after {
+    content: "*";
+    font-size: var(--font-size-38);
+    color: var(--color-red);
+}

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+        <title>Courses Page</title>
+    </head>
+    <body>
+        <h1>CSS Fundamentals Course</h1>
+        <h2>Introduction to CSS</h2>
+        <p>
+            A selector in CSS is a pattern that defines which HTML elements on a
+            web page will be styled by a set of CSS rules.
+        </p>
+        <ul>
+            <li>
+                Selectors target specific elements based on various criteria,
+                such as element type, class, ID, or their relationship with
+                other elements.
+            </li>
+            <li>
+                CSS selectors play a crucial role in styling and formatting web
+                pages by allowing developers to apply styles selectively to
+                different parts of the HTML document.
+            </li>
+            <li>
+                CSS provides a variety of selectors, including element
+                selectors, class selectors (denoted by a period .), ID selectors
+                (denoted by a hash #), and more advanced selectors like
+                attribute selectors and pseudo-classes.
+            </li>
+            <li>
+                These selectors enable precise targeting of elements for styling
+                purposes.
+            </li>
+            <li>
+                Understanding and using CSS selectors is fundamental for
+                effective web development and design, allowing developers to
+                create visually appealing and well-structured interfaces
+            </li>
+        </ul>
+
+        <p><strong> is the CSS Rule?</strong></p>
+        <ul>
+            <li>
+                A CSS rule is a combination of a selector and a declaration
+                block that defines how a specific set of HTML elements should be
+                styled.
+            </li>
+            <li>
+                The selector indicates which HTML elements the rule applies to,
+                and the declaration block contains one or more declarations,
+                each consisting of a CSS property and its corresponding value.
+            </li>
+            <li>
+                These declarations specify the visual presentation of the
+                selected elements, such as color, size, or positioning.
+            </li>
+        </ul>
+
+        <h2>Inline, Internal and Extrnal</h2>
+        <p><strong>What is Inline, Internal, and External CSS?</strong></p>
+        <ul>
+            <li>Inline CSS:</li>
+            <ul>
+                <li>
+                    Definition: Inline CSS is applied directly to a single HTML
+                    element, using the style attribute.
+                </li>
+                <li>
+                    Scope: It affects only the specific element it is applied
+                    to.
+                </li>
+            </ul>
+            <li>Internal CSS:</li>
+            <ul>
+                <li>
+                    Definition: Internal CSS is defined within the HTML document
+                    using the style tag in the head section.
+                </li>
+                <li>
+                    Scope: It applies styles to elements on the same page and is
+                    not limited to a single element
+                </li>
+            </ul>
+            <li>External CSS:</li>
+            <ul>
+                <li>
+                    Definition: External CSS is stored in a separate file and
+                    linked to the HTML document using the <link /> tag
+                </li>
+                <li>
+                    Scope: It can be applied across multiple pages, promoting a
+                    consistent style for the entire website
+                </li>
+            </ul>
+        </ul>
+
+        <p><strong>What is Separation of Concerns?</strong></p>
+        <p>
+            Separation of Concerns (SoC) is a fundamental design principle in
+            computer science and software development. It involves breaking a
+            computer program or system into distinct and independent sections,
+            with each section addressing a specific concern or aspect of
+            functionality. The goal is to organize and manage complexity by
+            isolating different aspects of the software, making it easier to
+            understand, maintain, and scale
+        </p>
+
+        <p>Key points about Separation of Concerns include:</p>
+        <ul>
+            <li>
+                Distinct Sections: The principle advocates for separating the
+                codebase into well-defined sections, each handling specific
+                responsibilities.
+            </li>
+            <li>
+                Preventing High Coupling: SoC helps prevent high coupling
+                between different components, allowing changes in one section
+                without affecting others
+            </li>
+            <li>
+                Modularity: It promotes modularity, making it easier to develop,
+                test, and maintain individual modules or components
+            </li>
+            <li>
+                Readability and Maintainability: By organizing code based on
+                concerns, it enhances code readability and makes maintenance
+                more straightforward.
+            </li>
+        </ul>
+
+        <p>
+            <strong
+                >What Does “Don’t Repeat Yourself” Mean in Programming?
+            </strong>
+        </p>
+        <p>
+            Don’t Repeat Yourself” (DRY) is a software development principle
+            that encourages developers to avoid duplicating code. The core idea
+            is to write code in a way that eliminates redundancy and promotes
+            code reuse
+        </p>
+
+        <p><strong>What is Semantic Naming in Programming?</strong></p>
+        <p>
+            Semantic naming in programming refers to the practice of choosing
+            names for variables, functions, classes, or other entities in a
+            codebase that convey meaning about their purpose or functionality.
+            The goal is to use names that provide clear and understandable
+            information about the role and intent of the code element.
+        </p>
+        <ul>
+            <li>
+                Descriptive Names: Semantic names are descriptive and reflect
+                the purpose of the entity they represent.
+            </li>
+            <li>
+                Avoiding Ambiguity: Names should be unambiguous, reducing the
+                likelihood of misinterpretation.
+            </li>
+            <li>
+                Conveying Intent: The name itself should convey the intent or
+                behavior of the associated code element.
+            </li>
+            <li>
+                Consistency: Maintaining consistency in naming conventions
+                across the codebase enhances overall clarity.
+            </li>
+        </ul>
+        <p>
+            Semantic naming is a fundamental principle in writing clean and
+            understandable code. It allows developers to quickly grasp the
+            functionality of different parts of the codebase, making it easier
+            to maintain and collaborate on projects
+        </p>
+        <h2>Styling Text</h2>
+        <ul>
+            <li>
+                font-size property sets the size of the text | vw unit, which
+                means the "viewport width" => follow the size of the browser
+                window.
+            </li>
+            <li>font-family property to specify the font of a text.</li>
+            <li>
+                text-transform property is used to specify uppercase and
+                lowercase letters in a text
+            </li>
+            <li>
+                text-align property specifies the horizontal alignment of text
+                in an element
+            </li>
+            <li>line-height property specifies the height of a line</li>
+        </ul>
+        <p><strong>What Values Can the Font Size Take in CSS?</strong></p>
+        <ul>
+            <li>
+                <strong>Absolute Lengths</strong>: Numeric values followed by
+                units like px (pixels), pt (points), cm (centimeters), etc.
+                Example: font-size: 16px;
+            </li>
+            <li>
+                <strong>Relative Lengths</strong>: Units relative to the parent
+                element’s font size, such as em and rem. Example: font-size:
+                1.5em; (1.5 times the parent element’s font size)
+            </li>
+            <li>
+                <strong>Percentages</strong>: Relative to the parent element’s
+                font size. Example: font-size: 150%; (150% of the parent
+                element’s font size)
+            </li>
+            <li>
+                <strong>Keywords</strong>: Predefined values like medium, large,
+                small, etc. Example: font-size: larger;
+            </li>
+        </ul>
+        <p>
+            These values allow flexibility in specifying font sizes, catering to
+            both absolute and relative measurements
+        </p>
+        <p>
+            <strong
+                >Are you looking to create a website with precise, high-quality
+                design and layout?</strong
+            >
+        </p>
+        <p>
+            Pixel-perfect websites refer to those meticulously crafted to match
+            the design mockups down to the individual pixel
+        </p>
+
+        <h2>Combining Selectors</h2>
+        <p>
+            CSS Combinators: A combinator is something that explains the
+            relationship between the selectors.
+        </p>
+        <p>
+            A CSS selector can contain more than one simple selector. Between
+            the simple selectors, we can include a combinator.
+        </p>
+        <p>There are four different combinators in CSS:</p>
+        <ul>
+            <li>descendant selector (space)</li>
+            <li>child selector (>)</li>
+            <li>adjacent sibling selector (+)</li>
+            <li>general sibling selector (~)</li>
+        </ul>
+        <a href="index-en.html">Back to Home</a>
+    </body>
+</html>
